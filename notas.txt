@@ -1,0 +1,49 @@
+"Curso Definitivo de HTML y CSS"
+
+---------------CLASE 11 Tipos de imagenes---------------
+
+Lossy vs Lossless
+Con pérdida / Sin pérdida
+
+Exiten dos tipos de imagenes, si pérdida o con pérdida, y esto depende de como el formato maneja las imágenes.
+
+Lossless (Sin pérdida)
+Los formatos de imagen si pérdida capturan todos los datos de su archivo
+original. No se pierde nada del archivo original, foto u obra de arte, de
+ahí el término "sin pérdida". El archivo aún puede estar comprimido, pero
+todos los formatos sin pérdida podrán recontruir su imagen a su estado original.
+
+Lossy(Con pérdida)
+Los formatos de imagen con pérdida se aproximan a su imagen original. Por ejemplo,
+una imagen con pérdida podría reducir la cantidad de colores en su imagen o analizar
+la imagen en busca de datos innecesarios. Estos reducirá el tamaño del archivo, aunque
+puede reducir la calidad de su imagen.
+Por lo general, los archivos con pérdida son mucho más pequeños que los archivos sin pérdida,
+lo que los hace ideales para usar en línea donde el tamaño del archivo y la velocidad de descarga
+son vitales.
+
+FORMATOS DE IMAGENES.-
+GIF-Lossless (Graphics Interchange Format)
+PNG 8-Lossless (Portable Network Graphic) paleta de colores de 256, para usar transparencias.
+PNG 24-Lossless (Portable Network Graphic) paleta de colores de mas de 256
+
+JPG /JPEG -Lossy (Photographic Experts Group) gama de colores ilimitada
+SVG - Vector/Lossless (Scalable Vector Graphics)
+
+
+Logotipos -> png o SVG
+Fotografias visuales JPG
+png 24 para modificar el fondo, etc
+
+
+---------------CLASE 12 Optimizando imagenes---------------
+
+En promedio una imagen debe pesar alrededor de 70 KB,
+
+Opciones para trabajar las imágenes:
+* Mejora el tamaño de tus imagenes.
+    * Tiny PNG -> https://tinypng.com/
+
+
+* Retira metadatos de tus imágenes
+    *Verexif -> https://www.verexif.com/

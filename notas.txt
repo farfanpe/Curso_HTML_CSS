@@ -47,3 +47,19 @@ Opciones para trabajar las imágenes:
 
 * Retira metadatos de tus imágenes
     *Verexif -> https://www.verexif.com/
+
+
+---------------CLASE 16 Formularios ---------------
+Etiquetas form e input
+
+Estructura ideal de un formulario
+
+<form action="">
+    <label for="hora">
+      <span>Hora</span>
+      <input type="time" name="hora" id="hora">
+    </label>
+    <input type="submit">
+</form>
+
+---------------CLASE 18 Formularios ---------------

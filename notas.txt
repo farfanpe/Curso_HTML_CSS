@@ -62,4 +62,5 @@ Estructura ideal de un formulario
     <input type="submit">
 </form>
 
----------------CLASE 18 Formularios ---------------
+---------------CLASE 26 Herencia ---------------
+La Herenciaen CSS es el código que se va pasar de un Padre a un Hijo

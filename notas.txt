@@ -63,4 +63,44 @@ Estructura ideal de un formulario
 </form>
 
 ---------------CLASE 26 Herencia ---------------
-La Herenciaen CSS es el código que se va pasar de un Padre a un Hijo
+La Herencia en CSS es el código que se va pasar de un Padre a un Hijo
+Herencia y sus valores:
+Inherit. este es un valor por medio de una keyword que especifica que, a la propiedad
+que se aplique debe heredar los valores de su elemento padre. Podemos decir que la palabra
+inherit significa "Usa el valor de mi padre", si el elemento padre no tiene definido dicho valor
+el navegador seguirá el DOM hasta que encuentre un elemento superior que lo contenga, y en última
+instancia de no tenerlo nungún elemento superior se aplicara el valor por defecto.
+
+Initial. este valor pertenece a la especificación CSS3 y cuando aplicamos a una propiedad el valor Initial
+estamos dando el valor inicial y predifinido por el navegador en cuestión.
+
+Upset. Este valor unset es una combinación entre inherit e initial, cuando utilizamos este valor en
+una propiedad esta trata de heredar el valor de su elemento padre si este esta disponible, de no ser así
+este valor colocará el valor de la propiedad en su valor inicial, como si usaramos inherit e initital juntos.
+
+---------------CLASE 27 Especificidad en selectores ---------------
+
+¿Cómo se controla el orden al declarar CSS?
+
+La importancia es uno de los conceptos más relevantes. Si dos declaraciones tienen la misma importancia,
+la especificidad de las reglas decidirá cuál se debe aplicar. Si las reglas tienen la misma especificidad, el orden de las fuentes
+controla el resultado final.
+
+1.Importancia. 
+    * Hoja de estilo de agente de usuario(Estilos del navegador)
+    * Declaraciones normales en hojas de estilo de autor (Nuestro .css)
+    * Declaraciones importantes en hojas de estilos de autor (utilizar el !important)
+    
+
+2.Especificidad.
+    Selectores        Especificidad
+    !important          1.0.0.0.0
+    Inline styles       0.1.0.0.0
+        #id             0.0.1.0.0
+        .class          0.0.0.1.0
+        tag             0.0.0.0.1
+
+
+3.Orden en las fuentes
+ 
+    Conflicto en la declaracion     Diferente origen o !important   No  ¿Los selectores tienen una especificidad diferente?     No  
